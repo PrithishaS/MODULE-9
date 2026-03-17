@@ -18,8 +18,19 @@ To write a Python program that prints only the diagonal elements of a given matr
 6. Print a newline after each row.
 
 ## 🖥️ Program
-Add Code Here
+
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+A = [[1, 2], [3, 4]]
+
+diagonal = [A[i][i] for i in range(len(A))]
+
+print("Diagonal elements:", diagonal)
 
 ### Output:
 
+Diagonal elements: [1, 4]
+
 ## Result
+The programs were implemented successfully and the outputs were verified.

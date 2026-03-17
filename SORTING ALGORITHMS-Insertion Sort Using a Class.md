@@ -35,8 +35,25 @@ To develop a Python class with functions to:
 
 ## 💻 PROGRAM:
 
-ADD CODE HERE
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+arr = list(map(int, input("Enter elements: ").split()))
+
+for i in range(1, len(arr)):
+    key = arr[i]
+    j = i - 1
+    while j >= 0 and key < arr[j]:
+        arr[j + 1] = arr[j]
+        j -= 1
+    arr[j + 1] = key
+
+print("Sorted array:", arr)
 
 ## OUTPUT:
 
+Enter elements: 5 3 8 1
+Sorted array: [1, 3, 5, 8]
+
 ## RESULT:
+The programs were implemented successfully and the outputs were verified.
